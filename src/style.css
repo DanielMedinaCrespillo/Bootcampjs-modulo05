@@ -14,6 +14,72 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.cartas {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.cartaback,
+.cartafront {
+  display: flex;
+  width: 230px;
+  height: 340px;
+  color: white;
+  border: white solid;
+  border-radius: 16px;
+  border-width: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.cartas div img {
+  border: white;
+  border-radius: 20px;
+}
+
+#nuevojuego {
+  display: none;
+  font-size: 35px;
+  margin-right: 16px;
+}
+
+#puntuacion {
+  margin-bottom: 32px;
+  font-size: x-large;
+}
+
+#siguienteCarta {
+  display: none;
+}
+
+#puntosActual {
+  font-size: large;
+  font-weight: 800;
+  margin-bottom: 80px;
+  border: black solid 8px;
+  border-radius: 16px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px 90px;
+  color: black;
+}
+
+.botones {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 18px;
+  margin-top: 16px;
+}
+
+.botones button {
+  margin: 16px;
+}
+
+#puntuacion {
+  font-weight: 700;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -28,8 +94,11 @@ body {
   display: flex;
   flex-direction: column;
   place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgb(1, 63, 14);
+  box-sizing: border-box;
 }
 
 h1 {
